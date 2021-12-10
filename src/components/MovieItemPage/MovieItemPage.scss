@@ -1,0 +1,161 @@
+@import '../../variables';
+
+.movie-page {
+  &__wrapper {
+    @include flex($wrap: no-wrap, $direction: column);
+    margin: 25px 15px;
+    max-width: 100%;
+    padding: 20px;
+    background-color: $gray;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  &__main-title-container {
+    display: block;
+    width: 100%;
+  }
+
+  &__main-title {
+    margin: 0;
+    color: $red;
+  }
+
+  &__main-title-underline {
+    width: 100%;
+  }
+
+  &__main-info-container {
+    @include flex($direction: row);
+    max-width: 100%;
+  }
+
+  &__mobile-main-info-container {
+    @include flex($direction: column);
+  }
+
+  &__main-poster-container {
+    max-width: 450px;
+    width: 30%;
+    margin: 15px;
+  }
+
+  &__mobile-main-poster-container {
+    width: 90%;
+  }
+
+  &__poster {
+    width: 100%;
+  }
+
+  &__info-container {
+    width: 50%;
+    padding: 15px;
+  }
+
+  &__mobile-info-container {
+    width: 100%;
+  }
+
+  &__info-item-container {
+    margin: 0;
+    text-align: left;
+
+    .genre {
+      &:hover {
+      text-decoration: none !important;
+      }
+    }
+
+    .homepage {
+      color: $white;
+    }
+  }
+
+  &__genre-item {
+    margin: 0 2px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__rating-info {
+    text-align: left;
+  }
+
+  &__info-item-value {
+    display: inline-block;
+    margin: 2px 0;
+    font-weight: bold;
+  }
+
+  &__info-item-name {
+    color: $red;
+  }
+
+  &__accordion-item-container {
+    @include flex();
+  }
+
+  &__season-poster {
+    width: 150px;
+    margin: auto;
+  }
+
+  &__season-info {
+    display: inline-block;
+    margin: 20px;
+  }
+
+  &__season-info-container-mobile {
+    width: 100%;
+  }
+
+  &__seasons-container {
+    overflow-x: auto;
+    max-height: 450px;
+  }
+
+  &__about-container {
+    margin: auto;
+  }
+
+  &__about-title {
+    margin-top: 0;
+  }
+
+  &__video-tabs-wrapper {
+    width: 100%;
+  }
+
+  &__seasons-with-video-container {
+    border: 1px solid $border-color;
+    background-color: $background-primary;
+    border-radius: 5px;
+  }
+
+  &__seasons-with-video-container-large-screen {
+    @include flex($direction: row);
+    height: 740px;
+  }
+
+  &__video-tabs-wrapper-show {
+    width: 55%;
+  }
+
+  &__seasons-container-show {
+    width: 45%;
+    max-height: 720px;
+  }
+
+  &__loader-wrapper {
+    position: fixed;
+    top: 40%;
+    width: 80%;
+  }
+
+  &__loader-wrapper-mobile {
+    width: 100%;
+  }
+
+}

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="548926de-cff3-4d8a-aa20-72a745eefd1f" name="Default Changelist" comment=" features #5:&#10;&#10;1. Login Service.&#10;2. Login page layout and functionality.&#10;3. Ability to leave movie rating with method in Data Service.&#10;4. Notifications.&#10;5. Fixes from previous PR Review">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="login-guest-user-pages" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1XA0v2h43zMuNvRr1ZgyVAvhWEi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/images" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/images" />
+      <recent name="$PROJECT_DIR$/src/components/PopularMoviesListPage" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/assets/fonts/Nunito" />
+      <recent name="$PROJECT_DIR$/src/redux" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/constants" />
+      <recent name="$PROJECT_DIR$/src/service" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="548926de-cff3-4d8a-aa20-72a745eefd1f" name="Default Changelist" comment="" />
+      <created>1580473818857</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580473818857</updated>
+      <workItem from="1580473820863" duration="18391000" />
+      <workItem from="1580900281912" duration="14167000" />
+      <workItem from="1581265163122" duration="59022000" />
+      <workItem from="1581537416207" duration="1327000" />
+      <workItem from="1581687972964" duration="692000" />
+      <workItem from="1581802107499" duration="138025000" />
+      <workItem from="1582488680876" duration="84651000" />
+      <workItem from="1583165057919" duration="86505000" />
+      <workItem from="1584008956892" duration="15199000" />
+      <workItem from="1584107637581" duration="201000" />
+      <workItem from="1584108067211" duration="85728000" />
+    </task>
+    <task id="LOCAL-00001" summary="fixes #1:&#10;&#10;1. viewportProvider was rewritten to HOC&#10;2. removed configureStore and custom connect&#10;3. Rewrote ScrollToTop component">
+      <created>1582024749393</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582024749393</updated>
+    </task>
+    <task id="LOCAL-00002" summary="features #2:&#10;&#10;1. Creates services that get movies, tv shows and genres.&#10;2. Movie and TV show list page main layout and functionality&#10;3. Pagination for movieListPage layout and functionality&#10;4. Created MovieCard and MovieList models using immutableJS (functionalty will be developed in future)&#10;5. Made fixes and refactoring according to last review">
+      <created>1582209100202</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582209100202</updated>
+    </task>
+    <task id="LOCAL-00003" summary="features #3:&#10;&#10;1. Created services that get movie by id, videos by id.&#10;2. Crated and used models for: MovieList, Video, Movie, Genre&#10;3. Added VideoPlayer and navbar for multiple videos at MovieItemPage&#10;4. Created MovieItem page with its basic functionality and made it responsive&#10;5. Includes fixes and refactoring according to first commit review">
+      <created>1582544310101</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582544310101</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fixes of features #2 #3:&#10;&#10;1. refactored code&#10;2. Moved functions from rendering components to models where it posiible">
+      <created>1582646678980</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582646678980</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fixes of search functionality">
+      <created>1584004342306</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584004342306</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="fixes #1:&#10;&#10;1. viewportProvider was rewritten to HOC&#10;2. removed configureStore and custom connect&#10;3. Rewrote ScrollToTop component" />
+    <MESSAGE value="features #2:&#10;&#10;1. Creates services that get movies, tv shows and genres.&#10;2. Movie and TV show list page main layout and functionality&#10;3. Pagination for movieListPage layout and functionality&#10;4. Created MovieCard and MovieList models using immutableJS (functionalty will be developed in future)&#10;5. Made fixes and refactoring according to last review" />
+    <MESSAGE value="features #3:&#10;&#10;1. Created services that get movie by id, videos by id.&#10;2. Crated and used models for: MovieList, Video, Movie, Genre&#10;3. Added VideoPlayer and navbar for multiple videos at MovieItemPage&#10;4. Created MovieItem page with its basic functionality&#10;5. Includes fixes and refactoring according to first commit review" />
+    <MESSAGE value="features #3:&#10;&#10;1. Created services that get movie by id, videos by id.&#10;2. Crated and used models for: MovieList, Video, Movie, Genre&#10;3. Added VideoPlayer and navbar for multiple videos at MovieItemPage&#10;4. Created MovieItem page with its basic functionality and made it responsive&#10;5. Includes fixes and refactoring according to first commit review" />
+    <MESSAGE value="fixes of features #3:&#10;&#10;1. refactored code&#10;2. Moved functions from rendering components to models where it posiible" />
+    <MESSAGE value="fixes of features #2 #3:&#10;&#10;1. refactored code&#10;2. Moved functions from rendering components to models where it posiible" />
+    <MESSAGE value="created #4:&#10;&#10;1. filtration by year anr/or genre&#10;2. search functionality&#10;3. ioc pre setup" />
+    <MESSAGE value="created #4:&#10;&#10;1. Rewrote API call actions to Data Service&#10;2. Used IoC Container Pattern for httpService, navConfig, apiCAlLCongid&#10;3. fixed bugs wihh filtration and search&#10;4.added filtration by clicking on genre in movie card" />
+    <MESSAGE value=" features #5:&#10;&#10;1. Login Service.&#10;2. Login page layout and functionality.&#10;3. Ability to leave movie rating with method in Data Service.&#10;4. Notifications.&#10;5. Fixes from previous PR Review" />
+    <option name="LAST_COMMIT_MESSAGE" value=" features #5:&#10;&#10;1. Login Service.&#10;2. Login page layout and functionality.&#10;3. Ability to leave movie rating with method in Data Service.&#10;4. Notifications.&#10;5. Fixes from previous PR Review" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="115" key="#ESLint" timestamp="1584542423742">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#ESLint/0.0.1440.900/1440.0.1920.1200@0.0.1440.900" timestamp="1584025472333" />
+    <state x="320" y="115" key="#ESLint/0.0.1440.900@0.0.1440.900" timestamp="1584542423742" />
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583852681966">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/1440.0.1920.1200@0.0.1440.900" timestamp="1583150292866" />
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1583852681966" />
+    <state x="85" y="15" key="CommitChangelistDialog2" timestamp="1584998346450">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="85" y="15" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584998346450" />
+    <state width="1419" height="303" key="GridCell.Tab.0.bottom" timestamp="1583231108384">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1200@0.0.1440.900" timestamp="1583164872853" />
+    <state width="1419" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583231108384" />
+    <state width="1419" height="303" key="GridCell.Tab.0.center" timestamp="1583231108383">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1200@0.0.1440.900" timestamp="1583164872850" />
+    <state width="1419" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583231108383" />
+    <state width="1419" height="303" key="GridCell.Tab.0.left" timestamp="1583231108382">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1200@0.0.1440.900" timestamp="1583164872849" />
+    <state width="1419" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583231108382" />
+    <state width="1419" height="303" key="GridCell.Tab.0.right" timestamp="1583231108383">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1200@0.0.1440.900" timestamp="1583164872852" />
+    <state width="1419" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583231108383" />
+    <state width="1419" height="303" key="GridCell.Tab.1.bottom" timestamp="1583231108386">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583231108386" />
+    <state width="1419" height="303" key="GridCell.Tab.1.center" timestamp="1583231108385">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1583231108385" />
+    <state width="1419" height="303" key="GridCell.Tab.1.left" timestamp="1583231108384">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1583231108384" />
+    <state width="1419" height="303" key="GridCell.Tab.1.right" timestamp="1583231108386">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1583231108386" />
+    <state width="1419" height="303" key="GridCell.Tab.2.bottom" timestamp="1583231108388">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583231108388" />
+    <state width="1419" height="303" key="GridCell.Tab.2.center" timestamp="1583231108387">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1583231108387" />
+    <state width="1419" height="303" key="GridCell.Tab.2.left" timestamp="1583231108387">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1583231108387" />
+    <state width="1419" height="303" key="GridCell.Tab.2.right" timestamp="1583231108388">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1583231108388" />
+    <state width="1419" height="303" key="GridCell.Tab.3.bottom" timestamp="1583231108390">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.3.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583231108390" />
+    <state width="1419" height="303" key="GridCell.Tab.3.center" timestamp="1583231108389">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.3.center/0.0.1440.900@0.0.1440.900" timestamp="1583231108389" />
+    <state width="1419" height="303" key="GridCell.Tab.3.left" timestamp="1583231108389">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.3.left/0.0.1440.900@0.0.1440.900" timestamp="1583231108389" />
+    <state width="1419" height="303" key="GridCell.Tab.3.right" timestamp="1583231108390">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.3.right/0.0.1440.900@0.0.1440.900" timestamp="1583231108390" />
+    <state x="229" y="89" key="SettingsEditor" timestamp="1584107564618">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900/1440.0.1920.1200@0.0.1440.900" timestamp="1584107564618" />
+    <state x="386" y="85" width="667" height="729" key="find.popup" timestamp="1584998440795">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="386" y="85" width="816" height="729" key="find.popup/0.0.1440.900/1440.0.1920.1200@0.0.1440.900" timestamp="1584088980800" />
+    <state x="386" y="85" width="667" height="729" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1584998440795" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1583224441970">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1583224441970" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts</url>
+          <line>136</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

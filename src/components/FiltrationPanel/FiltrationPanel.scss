@@ -1,0 +1,28 @@
+@import '../../variables';
+
+.filtration-panel {
+  @include flex($justify: space-around);
+  margin: 0 15px;
+  max-width: 100%;
+  margin: 5px;
+  border: 1px solid darkgoldenrod;
+  background-color: $gray;
+  border-radius: 5px;
+
+  &-mobile {
+    //@include flex($direction: column);
+  }
+
+  &__item {
+    align-self: center;
+
+    & > select {
+      padding-left: 24px;
+    }
+  }
+
+  &__default-option {
+    font-weight: bold;
+    color: $red;
+  }
+}

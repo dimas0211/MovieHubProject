@@ -1,0 +1,40 @@
+$fonts: (
+        primary: 'Nunito-Regular',
+        primary-bold: 'Nunito-Bold',
+        primary-light: 'Nunito-Light',
+        secondary: 'Roboto-Regular'
+);
+
+@font-face {
+  font-family: 'Nunito-Regular';
+  src: url('./Nunito/Nunito-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nunito-Bold';
+  src: url('./Nunito/Nunito-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nunito-Light';
+  src: url('./Nunito/Nunito-Light.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  font-style: normal;
+
+  src: url('./roboto_regular/Roboto-Regular.eot?#iefix') format('embedded-opentype')
+}
+
+@function font($type: primary) {
+  @each $key, $font in $fonts {
+    @if $key == $type {
+      @return $font;
+    }
+  }
+
+  @debug map-keys($fonts);
+  @return null;
+}

@@ -1,0 +1,185 @@
+@import '../../variables';
+
+.navigation-bar {
+  @include flex($justify: center);
+
+  position: fixed;
+  z-index: 1000;
+
+  width: 100%;
+  height: 50px;
+
+  background-color: $gray;
+  border: 1px solid $border-color;
+
+  a {
+    color: $font-color;
+
+    font-family: font(primary), serif;
+  }
+
+  &__nav-wrapper {
+    @include flex($justify: space-between, $align: center);
+    width: 95%;
+  }
+
+  &__logo-user-container {
+    @include flex($justify: space-around, $align: center);
+  }
+
+  &__user-logo {
+    margin: 0 20px;
+    color:  $green;
+  }
+
+  &__logo-container {
+    @include flex($justify: space-around, $align: center);
+    height: 100%;
+
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  &__logo-img {
+    width: 50px;
+  }
+
+  &__logo-name {
+    margin: 0;
+    padding: 10px;
+    color: $font-color;
+  }
+
+  &__tab {
+    width: 80px;
+  }
+
+  .MuiTabs-indicator,
+  .MuiTab-root {
+    min-width: 80px;
+  }
+
+  &__search-container {
+    @include flex($justify: space-around, $align: center, $wrap: nowrap);
+    border-radius: 5px;
+    width: 200px;
+    background-color: $input-background;
+  }
+
+  &__search-icon {
+    color: $white;
+  }
+
+  .MuiInputBase-root {
+    color: $font-color;
+  }
+
+  &__burger-icon {
+    z-index: 1001;
+
+    height: 50px;
+
+    .MuiSvgIcon-root {
+      width: 30px;
+      height: 30px;
+
+      color: $white;
+    }
+  }
+
+  .MuiPaper-root {
+    background: $background-primary;
+  }
+  &__side-container {
+    &__search-container {
+      @include flex($justify: space-around, $align: center);
+
+      border-radius: 5px;
+      margin-right: 25px;
+
+      background-color: $white;
+    }
+  }
+}
+
+.navigation-bar {
+  &__user-greeting {
+    text-align: center;
+    margin: 15px 0;
+    color: $green;
+  }
+
+  &__logout-container {
+    @include flex($justify: center, $align: center);
+    color: $red;
+    cursor: pointer;
+    &:hover {
+      background-color: $gray;
+    }
+  }
+
+  &__logout-logo {
+    margin: 0 10px;
+  }
+
+  &__mobile {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+
+    @include flex($justify: center);
+
+    width: 100%;
+    height: 50px;
+
+    background-color: $gray;
+    border: 1px solid $border-color;
+
+    &__search-container {
+      @include flex($justify: space-around, $align: center);
+      margin: 5px;
+      border-radius: 5px;
+      background-color: $input-background;
+    }
+
+    &__search-icon {
+      margin-left: 5px;
+    }
+
+    .MuiInputBase-root {
+      color: $font-color;
+    }
+  }
+
+  &__mobile-wrapper {
+    @include flex($justify: space-between, $align: center);
+
+    width: 95%;
+  }
+}
+
+.MuiDrawer-modal {
+  .MuiPaper-root {
+    width: 250px;
+    background-color: $background-primary;
+  }
+
+  .navigation-bar__search-container {
+    width: 90%;
+    margin: 10px auto;
+  }
+  .navigation-bar__nav-item {
+    color: $white;
+
+    &:hover,
+    &:active,
+    &:focus {
+      background-color: $gray;
+    }
+  }
+
+  .MuiInputBase-root {
+    color: $font-color;
+
+  }
+}

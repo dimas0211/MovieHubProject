@@ -1,0 +1,30 @@
+@import '../../variables';
+
+.movie-list-page {
+  position: relative;
+  &__movie-list-wrapper-large-screen {
+    @include flex($direction: row, $wrap: wrap);
+    margin-bottom: 25px;
+  }
+
+  &__loader-wrapper {
+    position: fixed;
+    top: 40%;
+    width: 80%;
+  }
+
+  &__loader-wrapper-mobile {
+    width: 100%;
+  }
+}
+
+.movie-list-page-with-filters {
+  padding-top: 50px;
+  &__tablet {
+    padding-top: 50px;
+  }
+
+  &__mobile {
+    padding-top: 85px;
+  }
+}

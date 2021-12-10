@@ -1,0 +1,112 @@
+@import 'assets/fonts/fonts.scss';
+
+//breakpoints
+$desktop-large: 1024px;
+$big-screen-width: 992px;
+$desktop: 768px;
+$tablet: 576px;
+$mobile-medium: 425px;
+$mobile-small: 375px;
+
+// colors:
+$black: #000000;
+$white: #ffffff;
+$red: #f50057;
+$green: #00966c;
+$silver-chalice: #aaaaaa;
+$light-gray: #303535;
+$gray: #353b48;
+
+$background-primary: #282D2D;
+$input-background: #2d3436;
+$border-color: #404040;
+
+// fonts
+$font-color: $white;
+$font-color-secondary: #606060;
+
+//font sizes
+
+$font-size-extra-small:    9px;
+$font-size-small:          12px;
+$font-size-normal:         14px;
+$font-size-regular:        16px;
+$font-size-large:          24px;
+$font-size-x-large:        32px;
+
+$font-size-x: ($font-size-regular * .75); // 12px
+$font-size-l: ($font-size-regular * 1.375); // 22px
+
+
+//fonts weights
+$font-weight-900: 900;
+$font-weight-100: 100;
+
+// fonts mixins
+
+@function calculaterem($size) {
+  $remSize: $size / $font-size-regular;
+
+  @return $remSize * 1rem;
+}
+
+@mixin font-size($size: $font-size-regular) {
+  font-size: $size;
+  font-size: calculaterem($size);
+}
+
+@mixin font-size-extra-small() {
+  @include font-size($font-size-extra-small);
+}
+
+@mixin font-size-small() {
+  @include font-size($font-size-small);
+}
+
+@mixin font-size-normal() {
+  @include font-size($font-size-normal);
+}
+
+@mixin font-size-base() {
+  @include font-size($font-size-regular)
+}
+
+//input range gradients
+$upper-background: linear-gradient(to top, $gray, $gray) 100% 50% / 100% 2px - 1 no-repeat transparent;
+
+//custom mixins
+
+@mixin input {
+  @include font-size(16px);
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: $white;
+    border-color: $white;
+    border-radius: 0;
+    background-color: $gray;
+    box-shadow: $black;
+    //caret-color: $turquoise;
+  }
+}
+
+@mixin flex($direction: null, $justify: null, $align: null, $wrap: wrap) {
+  display: flex;
+
+  @if($direction) {
+    flex-direction: $direction;
+  }
+  @if $justify {
+    justify-content: $justify;
+  }
+  @if $align {
+    align-items: $align;
+  }
+  @if $wrap {
+    flex-wrap: $wrap;
+  }
+}
+
+
+

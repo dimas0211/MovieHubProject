@@ -1,0 +1,18 @@
+@import '../../variables';
+
+.carousels-component {
+  &__carousel-wrapper {
+    @include flex($direction: row);
+
+    width: 100%;
+    overflow: auto;
+  }
+
+  &__item-wrapper {
+    margin: 25px 0;
+  }
+
+  &__item-title {
+    margin-bottom: 0;
+  }
+}

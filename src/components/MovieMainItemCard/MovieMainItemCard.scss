@@ -1,0 +1,76 @@
+@import '../../variables';
+
+.movie-card {
+  &__wrapper {
+    @include flex($wrap: no-wrap);
+    margin: 25px 15px;
+    max-width: 100%;
+    padding: 20px;
+    border: 1px solid $border-color;
+    background-color: $gray;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  &__wrapper-large-screen {
+    height: 330px;
+  }
+
+  &__image {
+    max-width: 200px;
+  }
+
+  &__image-large-screen {
+    height: 300px;
+  }
+
+  &__info-container {
+    @include flex($direction: column, $justify: space-between );
+    color: $font-color;
+    margin: 0 20px;
+    max-width: 100%;
+    text-align: left;
+  }
+
+  &__title-container {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__movie-title,
+  &__movie-title-native-lang,
+  &__rating-starts,
+  &__rating-info,
+  &__year-genre {
+    margin: 10px 0;
+  }
+
+  &__genre {
+    display: inline-block;
+  }
+
+  &__genre-item {
+    margin: 0 5px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__wrapper-mobile {
+    @include flex($direction: column);
+  }
+
+  &__wrapper-large-screen {
+    width: 50%;
+    height: 400px;
+  }
+
+  &__info-container-mobile {
+
+  }
+}
+
+.page-link {
+  text-decoration: none;
+}

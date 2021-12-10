@@ -1,0 +1,15 @@
+@import '../../variables';
+
+
+.video-player {
+  height: 100%;
+  width: 100%;
+
+  &__wrapper {
+    height: 600px;
+  }
+
+  &__mobile-wrapper {
+    height: 300px;
+  }
+}
